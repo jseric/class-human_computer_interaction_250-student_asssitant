@@ -1,0 +1,53 @@
+.login {
+  margin: 20px;
+  position: relative;
+}
+
+.errAlert {
+  margin: 0 auto;
+  width: 74%;
+
+  position: relative;
+  left: 20px;
+}
+
+.errAlert > h4 {
+  text-align: center;
+}
+
+.errAlert > p {
+  text-align: center;
+}
+
+.inputForm {
+  width: 75%;
+}
+
+#loginForm {
+  margin-top: 60px;
+  position: relative;
+  left: -20px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .errAlert {
+    width: 72%;
+    position: relative;
+    left: 15px;
+  }
+
+  #loginForm {
+    left: 15%;
+    padding: 10px;
+  }
+}

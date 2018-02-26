@@ -1,0 +1,89 @@
+.courseItem {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 80% 20%;
+  border-radius: 15px;
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.greenColor {
+  background-color: #2ecc71;
+}
+
+.redColor {
+  background-color: #e74c3c;
+}
+
+.blueColor {
+  background-color: #3498db;
+  color: white;
+}
+
+.yellowColor {
+  background-color: #f1c40f;
+}
+
+.turqoiseColor {
+  background-color: #1abc9c;
+}
+
+.whiteColor {
+  background-color: #ecf0f1;
+  border: 1px solid grey;
+}
+
+.courseNameContainer {
+  cursor: pointer;
+}
+
+.courseItem > div {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.courseName {
+  word-wrap: break-word;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subgreenColor {
+  background-color: #27ae60;
+}
+
+.subredColor {
+  background-color: #c0392b;
+}
+
+.subblueColor {
+  background-color: #2980b9;
+  color: #e0ffff;
+}
+
+.subyellowColor {
+  background-color: #f39c12;
+}
+
+.subturqoiseColor {
+  background-color: #16a085;
+}
+
+.subwhiteColor {
+  background-color: #bdc3c7;
+  border: 1px solid grey;
+}
+
+.icon {
+  margin: auto;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #7f8c8d;
+}

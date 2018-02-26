@@ -1,0 +1,39 @@
+.home > .jumbotron {
+  margin: 50px 37px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.homeButton {
+  margin: 0 40px;
+  padding: 15px 75px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .home > .jumbotron {
+    margin: 15px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  #homeInfoP {
+    font-size: 18px;
+  }
+
+  .homeButton {
+    margin: 10px;
+  }
+
+  #signInButton {
+    padding: 15px 79px;
+  }
+
+}

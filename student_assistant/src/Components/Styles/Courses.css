@@ -1,0 +1,142 @@
+.coursesButtonContainer {
+  margin: auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sortContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0 20px 20px;
+}
+
+.innerSortContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.buttonContainer {
+  cursor: pointer;
+}
+
+#sort-num-down {
+  color: #34495e;
+}
+
+#sort-num-up {
+  color: #1abc9c;
+}
+
+#sort-alpha-down {
+  color: #2c3e50;
+}
+
+#sort-alpha-up {
+  color: #1abc9c;
+}
+
+#sort-num-down:hover {
+  color: #95a5a6;
+}
+
+#sort-num-up:hover {
+  color: #9b59b6;
+}
+
+#sort-alpha-down:hover {
+  color: #7f8c8d;
+}
+
+#sort-alpha-up:hover {
+  color: #8e44ad;
+}
+
+#addButton {
+  cursor: pointer;
+}
+
+.buttonContainer:hover {
+  color: #7f8c8d;
+}
+
+#addButton:hover {
+  color: #7f8c8d;
+}
+
+.courses {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-auto-rows: 1fr;
+}
+
+.courseDiv {
+  margin: 10% auto;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.alert {
+  margin: 0 auto;
+  width: 87%;
+
+  position: relative;
+  left: 0px;
+  margin-bottom: 10px;
+}
+
+.alert > h4 {
+  text-align: center;
+  position: relative;
+  left: 8px;
+}
+
+.alert > p {
+  text-align: center;
+}
+
+.alertBtn {
+  position: relative;
+  left: 8px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .courses{
+    grid-template-columns: 50% 50%;
+  }
+
+  #addButton {
+    margin-left: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sortContainer {
+    margin-right: 8%;
+  }
+
+  .alert {
+    width: 73%;
+    left: -2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses {
+    grid-template-columns: 100%;
+  }
+
+  .buttonContainer {
+    justify-content: space-around;
+  }
+
+  .alert {
+    width: 72%;
+    left: 2px;
+  }
+}

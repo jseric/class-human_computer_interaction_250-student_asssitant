@@ -1,0 +1,18 @@
+.dialog-container > div {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.deleteButton {
+  width: 25%;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .deleteButton {
+    width: 40%;
+  }
+}
